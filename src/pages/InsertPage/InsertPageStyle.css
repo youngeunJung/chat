@@ -1,0 +1,23 @@
+.insert{
+    height:100vh;
+    background-image: url("../../../public/image/pageImage/main.jpg");
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 28rem;
+    position: relative;
+    background-size: cover;
+}
+
+.insert-container{
+    min-height:50px;
+    display: block;
+    position: absolute;
+    bottom: 43%;
+    width: 50%;
+    left: 27%;
+}
+
+h1{
+    text-align: center;
+    color:rgb(36, 36, 36)
+}

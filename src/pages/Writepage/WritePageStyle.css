@@ -1,0 +1,105 @@
+.writeMain{
+    height:100vh;
+    background-image: url("../../../public/image/pageImage/main.jpg");
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 28rem;
+    position: relative;
+    background-size: cover;
+}
+
+.write{
+    min-height: 50px;
+    display: block;
+    position: absolute;
+    bottom: 45%;
+    width: 60%;
+    left: 20%;
+}
+
+.write input{
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 30px;
+    padding-left: 5px;
+}
+
+textarea{
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    margin: 15px 0;
+    width: 100%;
+    height: 100px;
+    padding-left: 5px;
+    resize: none;
+}
+
+li{
+    display:flex;
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+ul{
+    padding:0 10px;
+}
+.deleteButton{
+    padding: 0;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    margin-left: 0;
+    margin-right: 10px;
+    border: none;
+    min-width: 0;
+}
+/* .filebox .upload-name {
+    display: inline-block;
+    height: 40px;
+    padding: 0 10px;
+    vertical-align: middle;
+    border: 1px solid #dddddd;
+    width: 60%;
+    background-color: rgb(255, 255, 255);
+    color: #999999;
+} */
+
+.uploadResult{
+    width: 102%;
+    height: 100px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.filebox label {
+    display: inline-block;
+    padding: 5px 15px;
+    color: rgb(103, 103, 103);
+    background-color: white;
+    cursor: pointer;
+    height: 25px;
+    border-radius: 5px;
+    font-size: 13px;
+    margin: -10px 0;
+}
+
+.filebox input {
+    display: none;
+    /* position: absolute;
+    top: 20%;
+    left: 35%;
+    width: 130px;
+    height: 20px;
+    padding: 0;
+    overflow: hidden;
+    border: 1px black solid;
+    padding: 10px 20px; */
+}
+
+/* .filebox input::file-selector-button{
+    display: none;
+} */
